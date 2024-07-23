@@ -35,7 +35,7 @@ To set up and use the script on a Windows machine, please follow these steps:
 
       Copy my exact script text to "Microsoft.PowerShell_profile.ps1" or you can even the add the following line to include the script in your PowerShell session:
 
-    ./"<path-to-your-script>\win-script-music.ps1"
+    ."<path-to-your-script>\win-script-music.ps1"
 
     Replace <path-to-your-script> with the actual path where you saved the "win-script-music.ps1" script.
 
