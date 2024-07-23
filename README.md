@@ -35,13 +35,13 @@ To set up and use the script on a Windows machine, please follow these steps:
 
       Save the win-script-music.ps1 script.
 
-      Open your PowerShell profile configuration file, typically located at C:\Users\<YourUsername>\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+      Open your PowerShell profile configuration file, typically located at 'C:\Users\<YourUsername>\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'.
 
-      Copy my exact script text to "Microsoft.PowerShell_profile.ps1" or you can even the add the following line to include the script in your PowerShell session:
+      Copy my exact script text to 'Microsoft.PowerShell_profile.ps1' or you can even the add the following line to include the script in your PowerShell session:
 
-    ."<path-to-your-script>\win-script-music.ps1"
+    '."<path-to-your-script>\win-script-music.ps1"'
 
-    Replace <path-to-your-script> with the actual path where you saved the "win-script-music.ps1" script.
+    Replace <path-to-your-script> with the actual path where you saved the 'win-script-music.ps1' script.
 
 
 5. Restart PowerShell
@@ -49,7 +49,7 @@ To set up and use the script on a Windows machine, please follow these steps:
 
 6. Get Started
 
-    Type music in the PowerShell terminal to run the script.
+    Type 'music' in the PowerShell terminal to run the script.
     Follow the prompt to search for and play music files from your local collection.
 
 
