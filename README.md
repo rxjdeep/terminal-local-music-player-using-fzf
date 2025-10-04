@@ -57,7 +57,9 @@ To set up and use the script on a Windows machine, please follow these steps:
 lol here's a one liner (run either of these):
 
 `mpv "$(cd <you_music_folder_path> && echo ''$(pwd)'/'$(fzf -e)'')"`
+
 `mpv <your_music_folder_path>/"$(du -h /run/user/1000/kio-fuse*/sftp/s23/sdcard/Music | fzf -e)"`
+
 `mpv -- "$(find <your_music_folder_path> -type f -printf '%p\t%P\n' \
   | fzf -e --delimiter=$'\t' --with-nth=2 \
   | cut -f1)"`
